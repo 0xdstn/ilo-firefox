@@ -1,0 +1,16 @@
+{
+    "manifest_version": 2,
+    "name": "ilo",
+    "version": "1.0",
+    "description": "Adds a context menu item to send text to ilo",
+    "homepage_url": "https://tilde.town/~dustin/projects/ilo",
+    "background": {
+        "scripts" : [
+            "background.js"
+        ]
+    },
+    "permissions": [
+        "activeTab",
+        "contextMenus"
+    ]
+}
